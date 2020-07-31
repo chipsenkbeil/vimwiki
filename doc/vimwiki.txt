@@ -825,7 +825,7 @@ Vimwiki file.
     Toggle checkbox of a list item disabled/off.
     See |vimwiki-todo-lists|.
 
-*:VimwikiListChangeLevel* CMD
+*:VimwikiListChangeLvl* CMD
     Change the nesting level, or symbol, for a single-line list item.
     CMD may be ">>" or "<<" to change the indentation of the item, or
     one of the syntax-specific bullets: "*", "#", "1.", "-".
@@ -2501,7 +2501,7 @@ Description~
 Width of left-hand margin for lists.  When negative, the current 'shiftwidth'
 is used.  This affects the appearance of the generated links (see
 |:VimwikiGenerateLinks|), the Table of contents (|vimwiki-toc|) and the
-behavior of the list manipulation commands |:VimwikiListChangeLevel| and the
+behavior of the list manipulation commands |:VimwikiListChangeLvl| and the
 local mappings |vimwiki_glstar|, |vimwiki_gl#| |vimwiki_gl-|, |vimwiki_gl-|,
 |vimwiki_gl1|, |vimwiki_gla|, |vimwiki_glA|, |vimwiki_gli|, |vimwiki_glI| and
 |vimwiki_i_<C-L>_<C-M>|.
